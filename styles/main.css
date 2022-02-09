@@ -1,0 +1,229 @@
+
+
+.header-photo{
+  width: 200px;
+
+}
+.banner{
+  width:100%;
+  height: 100px;
+  line-height:100px ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;  
+  color:rgb(61, 56, 56);
+  
+}
+
+.logo{
+  width:220px;
+  margin-right: 0px;
+  position: relative;
+  top:14px;left:40px;  
+}
+
+.heart{
+  font-size: 20px;
+  
+}
+
+.blog-text{
+  font-size:20px;
+  
+}
+
+body{
+  background-color:white; 
+}
+
+.welcome{
+  width:1264px;
+  height:386px;
+  background-image:url(../pic/welcome.jpg);
+  position: relative;
+  top:28px;    
+}
+
+.directory{
+  position: relative;
+  top:0px;right:-80px;    
+
+  
+}
+.blog{
+  display: inline-block;
+  position: relative;
+  top:-100px;left:580px;
+  font-size:16px; 
+  
+  
+  
+}
+
+.identity-value{
+  display: inline-block;
+  position: relative;
+  top:-100px;left:660px;
+  font-size:16px;
+}
+
+.learning-plan{
+  display: inline-block;
+  position: relative;
+  top:-100px;left:720px;
+  font-size:16px;
+
+
+
+}
+
+.about-me{
+  display: inline-block;
+  position: relative;
+  top:-100px;left:780px;
+  font-size:16px;
+  
+  
+  
+ }
+
+.topic1-pic{
+  width:500px;
+  height:400px;
+  position: relative;
+  top:100px;left:50px;
+
+}
+
+.topic-heading{
+  display:inline-block;
+  margin:auto;
+  font-size: 30px;
+  width:600px;
+}
+  
+.topic1{
+  position: relative;
+  top: -300px;left:634px;
+}
+
+.topic2{
+  position: relative;
+  top: -300px;left:634px;
+}
+
+.topic3{
+  position: relative;
+  top: -300px;left:634px;
+}
+
+
+
+
+.topic1-date{
+  margin:auto;
+  font-size:10px;
+  position:relative;
+  top:-290px;left:634px;
+}
+
+.topic1-content{
+  font-size:14px;
+  position: relative;
+  top:-294px;left:634px;
+  width:560px;
+}
+
+
+
+
+
+.author-pic{
+  width:80px;
+  border-radius: 50px;
+  position:relative;
+  top:-280px;left:634px;
+}
+
+.author-name{
+  font-size:20px;
+  position:relative;
+  top:-368px;left:744px;  
+}
+  
+.author-identity{
+  font-size:14px;
+  position:relative;
+  top:-388px;left:744px;  
+}
+
+.block-1{
+  position: relative;
+  top:0px;left:0px;
+}
+
+ 
+.block-2{
+  position: relative;
+  top:-450px;left:0px;
+}
+
+.block-3{
+  position: relative;
+  top:-900px;left:0px;
+} 
+
+.content{
+  position: relative;
+  top:20px;
+  color:rgb(61, 56, 56);
+} 
+
+.blog-content{
+  position: relative;
+  top:16px;left:50px;  
+  
+}
+.article1-content{
+  position: relative;
+  top:0px;left:0px; 
+}
+
+.article2-content{
+  position: relative;
+  top:60px;left:0px; 
+}
+
+.article3-content{
+  position: relative;
+  top:100px;left:0px; 
+}
+
+.blue-line{
+  width: 100%;
+  height: 1px;
+  background-color:rgb(238, 238, 240);
+  position: relative;
+  top:20px;
+}
+
+.inline-table{
+  width:800px;
+  height:auto;
+  position: relative;
+  left:50px;  
+  
+}
+
+.fontfamily{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color:rgb(71, 68, 68);
+
+}
+
+.heading2{
+  padding-top: 100px;
+  text-align: center;
+
+
+}
