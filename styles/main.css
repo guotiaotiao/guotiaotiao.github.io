@@ -62,9 +62,6 @@ a:hover {
   font-size: 20px;
 }
 
-body {
-  background-color: white;
-}
 
 .banner {
   width: 1264px;
@@ -171,4 +168,30 @@ body {
 
 .main-text{
   margin-top:60px;
+}
+
+.blog-text{
+  font-size:20px;
+  width:1000px;
+  text-align: left;
+  line-height: 40px;
+  margin:0 auto;
+  
+
+}
+
+.jessie-pic{
+  width:230px;
+  margin:102px auto auto 100px;
+}
+
+.aboutme-text{
+  font-size:14px;
+  width:800px;
+  text-align:left;
+  display:inline-block;
+  margin:8px auto auto 100px;
+  color:rgb(77, 74, 74);
+  
+  
 }
