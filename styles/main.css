@@ -55,7 +55,7 @@ a:hover {
 .header-link {
   display: inline-block;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .blog-text {
@@ -149,49 +149,67 @@ a:hover {
   background-color: rgb(238, 238, 240);
 }
 
-.content-heading{
+.content-heading {
   font-size: 50px;
   text-align: center;
   margin: 100px 0;
 }
 
-.content-text{
-  font-size:80px;
+.content-text {
+  font-size: 80px;
   text-align: center;
-  margin:100px 0;
+  margin: 100px 0;
 }
 
-.inline-block-table{
-  width:800px;
+.inline-block-table {
+  width: 800px;
 }
 
 
-.main-text{
-  margin-top:60px;
+.main-text {
+  margin-top: 60px;
 }
 
-.blog-text{
-  font-size:20px;
-  width:1000px;
+.blog-text {
+  font-size: 20px;
+  width: 1000px;
   text-align: left;
   line-height: 40px;
-  margin:0 auto;
-  
+  margin: 0 auto;
+
 
 }
 
-.jessie-pic{
-  width:230px;
-  margin:102px auto auto 100px;
+.jessie-pic {
+  width: 230px;
+  margin: 102px auto auto 100px;
 }
 
-.aboutme-text{
-  font-size:14px;
-  width:800px;
-  text-align:left;
-  display:inline-block;
-  margin:8px auto auto 100px;
-  color:rgb(77, 74, 74);
-  
-  
+.aboutme-text {
+  font-size: 14px;
+  width: 800px;
+  text-align: left;
+  display: inline-block;
+  margin: 8px auto auto 100px;
+  color: rgb(77, 74, 74);
+
+
+}
+
+.content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.content-unit {
+  width: 200px;
+  height: 200px;
+  margin: 30px 40px;
+  background-color: rgb(238, 238, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
