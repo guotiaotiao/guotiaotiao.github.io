@@ -82,6 +82,8 @@ a:hover {
 }
 
 .blog-title {
+  display:flex;
+  
   width: 600px;
   font-weight: bold;
   font-size: 30px;
