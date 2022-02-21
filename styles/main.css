@@ -70,39 +70,45 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.blog-pic {
-  width: 500px;
-  height: 400px;
-  margin: 60px 50px;
+.blog-unit {
+  
+  display:flex;
+  justify-content:space-between;
+  width:100%;
 }
 
-.blog-details {
-  height: 500px;
-  position: relative;
+.blogarea-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:50%;
+  justify-content: center;    
+}
+
+.blogarea-pic {
+  width: 10%;
+  margin: 60px 30px;
 }
 
 .blog-title {
-  display:flex;
-  
-  width: 600px;
+
+  width: 100%;
   font-weight: bold;
   font-size: 30px;
-  position: absolute;
   top: 82px;
   right: 50px;
 }
 
 .blog-date {
   font-size: 12px;
-  position: absolute;
   top: 158px;
   left: 616px;
-  color: rgb(109, 107, 107)
+  color: rgb(109, 107, 107);
+  margin:20px 0;
 }
 
 .blog-content {
   font-size: 18px;
-  position: absolute;
   top: 202px;
   left: 616px;
   width: 600px;
@@ -114,17 +120,17 @@ a:hover {
 }
 
 .author {
-  display: inline-block;
+  
   width: 300px;
   height: 100px;
-  position: absolute;
-  top: 360px;
-  left: 616px;
+  position: relative;
+  margin-top: 40px;
 }
 
 .author-pic {
   width: 80px;
   border-radius: 50px;
+  position:absolute;
 }
 
 .author-name {
@@ -142,7 +148,6 @@ a:hover {
   position: absolute;
   top: 34px;
   left: 100px;
-
 }
 
 .grey-line {
@@ -167,7 +172,6 @@ a:hover {
   width: 800px;
 }
 
-
 .main-text {
   margin-top: 60px;
 }
@@ -178,8 +182,6 @@ a:hover {
   text-align: left;
   line-height: 40px;
   margin: 0 auto;
-
-
 }
 
 .jessie-pic {
@@ -194,8 +196,6 @@ a:hover {
   display: inline-block;
   margin: 8px auto auto 100px;
   color: rgb(77, 74, 74);
-
-
 }
 
 .content {
