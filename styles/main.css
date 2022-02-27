@@ -215,3 +215,24 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+
+/* problem-solving */ 
+
+.test{
+  color:blue;
+}
+
+.problem-solving {
+  display:block;
+  margin:20px,auto;
+  
+}
+
+.techniques{
+  color:rgb(71, 68, 68);
+  
+}
+
+
+ 
