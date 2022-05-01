@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS grids</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-gap:1em;
+    }
+
+
+    .wrapper>div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum odio, iusto
+      et unde eaque vitae dolor quis adipisci id, dicta quod, sapiente voluptatum
+      nesciunt distinctio quasi. Quam odio, optio iste a magnam ex asperiores commodi
+      ut quae adipisci. Esse perspiciatis harum sit impedit. Minima magnam sit libero
+      voluptate tempore. Autem mollitia eius numquam dolor reiciendis temporibus quae.
+      Minus ipsa facere at quod, qui pariatur aperiam distinctio. Iste nisi id, labore
+      mollitia quaerat tempore ab cumque earum quia excepturi cum.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit assumenda,
+      commodi cupiditate a incidunt iure, veritatis aliquam et, nesciunt perspiciatis
+      pariatur velit illum fuga nemo! Enim dolore ipsam sint deserunt?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum odio, iusto
+      et unde eaque vitae dolor quis adipisci id, dicta quod, sapiente voluptatum
+      nesciunt distinctio quasi. Quam odio, optio iste a magnam ex asperiores commodi
+      ut quae adipisci. Esse perspiciatis harum sit impedit. Minima magnam sit libero
+      voluptate tempore. Autem mollitia eius numquam dolor reiciendis temporibus quae.
+      Minus ipsa facere at quod, qui pariatur aperiam distinctio. Iste nisi id, labore
+      mollitia quaerat tempore ab cumque earum quia excepturi cum.
+    </div>
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit assumenda,
+      commodi cupiditate a incidunt iure, veritatis aliquam et, nesciunt perspiciatis
+      pariatur velit illum fuga nemo! Enim dolore ipsam sint deserunt?
+    </div>
+  </div>
+
+</body>
+
+</html>
